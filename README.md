@@ -1,13 +1,5 @@
 # Bubnov-Galerkin Double-Diffusive Convection: Phase, Poincaré, and Möbius Diagnostics
 
-This package is the next corrected release after `v14`. It keeps the last successful phase-portrait setup and fixes the Poincaré title-format crash:
-
-```text
-IndexError: Replacement index 11 out of range for positional args tuple
-```
-
-The error came from calling `.format(...)` on a title string containing LaTeX braces such as `\tau_{11}`. The title is now built directly, so the Poincaré maps are produced again.
-
 ## Main scripts
 
 ### `dd_convection_galerkin_coeff_solver.py`
