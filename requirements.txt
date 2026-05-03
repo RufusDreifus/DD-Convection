@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+numba
+plotly
+imageio
+pillow
